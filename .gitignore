@@ -1,0 +1,20 @@
+# --- Fichiers Système (Mac & Windows) ---
+.DS_Store
+Thumbs.db
+desktop.ini
+$RECYCLE.BIN/
+
+# --- VS Code & Éditeurs ---
+.vscode/
+.idea/
+*.sublime-workspace
+*.swp
+
+# --- Logs et Dépendances (Si jamais) ---
+node_modules/
+npm-debug.log
+*.log
+
+# --- Fichiers temporaires ---
+*.tmp
+*.bak
