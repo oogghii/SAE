@@ -10,11 +10,7 @@ $RECYCLE.BIN/
 *.sublime-workspace
 *.swp
 
-# --- Logs et Dépendances (Si jamais) ---
-node_modules/
-npm-debug.log
-*.log
-
 # --- Fichiers temporaires ---
 *.tmp
 *.bak
+*.log
