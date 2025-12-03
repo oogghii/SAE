@@ -9,6 +9,10 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 function formulaire(connexionStatus){
+    if(connexionStatus === null){
+        window.location.href = 'connexion.html'; 
+    }
+
     if(connexionStatus === 'administre'){
         iframeMairie.classList.add('hidden');
         iframeAdministre.classList.remove('hidden');
@@ -16,5 +20,9 @@ function formulaire(connexionStatus){
     else if(connexionStatus === 'elu'){
         iframeMairie.classList.remove('hidden');
         iframeAdministre.classList.add('hidden');
+    }
+    else if(connexionStatus === 'administrateur'){
+        iframeMairie.classList.remove('hidden');
+        iframeAdministre.classList.remove('hidden');
     }
 }

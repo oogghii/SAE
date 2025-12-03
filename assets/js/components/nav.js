@@ -6,6 +6,7 @@ analyseContainer = document.getElementById('analyse-container');
 document.addEventListener('DOMContentLoaded', () => {
     const connexionStatus = localStorage.getItem('connexionStatus');
 
+    console.log(connexionStatus);
     connectingButton(connexionStatus);
     analysingButton(connexionStatus);
 });
