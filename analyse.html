@@ -11,7 +11,8 @@
 
 <body>
     <!-- DEBUT NAV-BAR | Par Raphaël -->
-    <nav id="nav-bar" class="sticky top-0 z-50 flex justify-between items-center bg-gray-900/90 backdrop-blur-md border-b border-white/10 text-white px-4 py-4 shadow-lg shadow-black/50">
+    <nav id="nav-bar"
+        class="sticky top-0 z-50 flex justify-between items-center bg-gray-900/90 backdrop-blur-md border-b border-white/10 text-white px-4 py-2 shadow-lg shadow-black/50">
 
         <!-- Gauche - Logo + Text -->
         <div id="logo-text-container" class="flex items-center gap-6">
@@ -27,71 +28,94 @@
         <div id="link-container" class="flex gap-6 xl:gap-18 items-center">
 
             <!-- Accueil -->
-            <a href="index.html" id="accueil-link" class="hover:underline hover:underline-offset-8 hover:decoration-2 text-2xl hover:text-gray-300 cursor-pointer transition-all">Accueil</a>
+            <a href="index.html" id="accueil-link"
+                class="hover:underline hover:underline-offset-8 hover:decoration-2 text-2xl hover:text-gray-300 cursor-pointer transition-all">Accueil</a>
 
             <!-- Information -->
             <div class="relative group">
-                <a href="information.html" class="flex items-center gap-1 hover:underline hover:underline-offset-8 hover:decoration-2 text-2xl hover:text-gray-300 cursor-pointer transition-all">
+                <a href="communaute.html"
+                    class="flex items-center gap-1 hover:underline hover:underline-offset-8 hover:decoration-2 text-2xl hover:text-gray-300 cursor-pointer transition-all">
                     Information
                 </a>
 
-                <div class="absolute left-1/2 -translate-x-1/2 top-full pt-4 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 ease-in-out">
-                    <div class="bg-gray-700/95 backdrop-blur-md border border-white/10 rounded-xl overflow-hidden shadow-xl w-56 flex flex-col">
-                        <a href="pages/information.html" class="block px-6 py-3 text-lg hover:bg-white/10 transition-colors">Général</a>
-                        <a href="pages/deplacement.html" class="block px-6 py-3 text-lg hover:bg-white/10 transition-colors">Plan de déplacement</a>
-                        <a href="pages/ecologie.html" class="block px-6 py-3 text-lg hover:bg-white/10 transition-colors">Transition écologique</a>
+                <div
+                    class="absolute left-1/2 -translate-x-1/2 top-full pt-4 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 ease-in-out">
+                    <div
+                        class="bg-gray-700/95 backdrop-blur-md border border-white/10 rounded-xl overflow-hidden shadow-xl w-56 flex flex-col">
+                        <a href="communaute.html"
+                            class="block px-6 py-3 text-lg hover:bg-white/10 transition-colors">Communauté</a>
+                        <a href="ecologie.html"
+                            class="block px-6 py-3 text-lg hover:bg-white/10 transition-colors">Transition
+                            écologique</a>
+                        <a href="stats-transport.html"
+                            class="block px-6 py-3 text-lg hover:bg-white/10 transition-colors">Nos Transports</a>
+                        <a href="deplacement-transport.html"
+                            class="block px-6 py-3 text-lg hover:bg-white/10 transition-colors">Mobilité Normandie</a>
                     </div>
                 </div>
             </div>
             <!-- Enquete -->
             <div id="enquete-container" class="hidden relative group">
-                <a href="enquete.html" class="flex items-center gap-1 hover:underline hover:underline-offset-8 hover:decoration-2 text-2xl hover:text-gray-300 cursor-pointer transition-all">
+                <a href="formulaire.html"
+                    class="flex items-center gap-1 hover:underline hover:underline-offset-8 hover:decoration-2 text-2xl hover:text-gray-300 cursor-pointer transition-all">
                     Enquête
                 </a>
 
-                <div class="absolute left-1/2 -translate-x-1/2 top-full pt-4 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 ease-in-out">
-                    <div class="bg-gray-700/95 backdrop-blur-md border border-white/10 rounded-xl overflow-hidden shadow-xl w-56 flex flex-col">
-                        <a href="pages/information.html" class="block px-6 py-3 text-lg hover:bg-white/10 transition-colors">Général</a>
-                        <a href="pages/formulaire.html" class="block px-6 py-3 text-lg hover:bg-white/10 transition-colors">Formulaire</a>
-                        <a href="pages/contact-us.html" class="block px-6 py-3 text-lg hover:bg-white/10 transition-colors">Nous contacter</a>
+                <div
+                    class="absolute left-1/2 -translate-x-1/2 top-full pt-4 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 ease-in-out">
+                    <div
+                        class="bg-gray-700/95 backdrop-blur-md border border-white/10 rounded-xl overflow-hidden shadow-xl w-56 flex flex-col">
+                        <a href="formulaire.html"
+                            class="block px-6 py-3 text-lg hover:bg-white/10 transition-colors">Formulaire</a>
+                        <a href="contact.html" class="block px-6 py-3 text-lg hover:bg-white/10 transition-colors">Nous
+                            contacter</a>
                     </div>
                 </div>
             </div>
 
             <!-- Analyse -->
             <div id="analyse-container" class="hidden relative group">
-                <a href="analyse.html" class="flex items-center gap-1 hover:underline hover:underline-offset-8 hover:decoration-2 text-2xl hover:text-gray-300 cursor-pointer transition-all">
+                <a href="analyse.html"
+                    class="flex items-center gap-1 hover:underline hover:underline-offset-8 hover:decoration-2 text-2xl hover:text-gray-300 cursor-pointer transition-all">
                     Analyse
                 </a>
 
-                <div class="absolute left-1/2 -translate-x-1/2 top-full pt-4 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 ease-in-out">
-                    <div class="bg-gray-700/95 backdrop-blur-md border border-white/10 rounded-xl overflow-hidden shadow-xl w-56 flex flex-col">
-                        <a href="pages/analyse.html" class="block px-6 py-3 text-lg hover:bg-white/10 transition-colors">Analyse</a>
-                        <a href="pages/enquete.html" class="block px-6 py-3 text-lg hover:bg-white/10 transition-colors">Enquête</a>
+                <div
+                    class="absolute left-1/2 -translate-x-1/2 top-full pt-4 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 ease-in-out">
+                    <div
+                        class="bg-gray-700/95 backdrop-blur-md border border-white/10 rounded-xl overflow-hidden shadow-xl w-56 flex flex-col">
+                        <a href="analyse.html"
+                            class="block px-6 py-3 text-lg hover:bg-white/10 transition-colors">Analyse</a>
+                        <a href="formulaire.html"
+                            class="block px-6 py-3 text-lg hover:bg-white/10 transition-colors">Enquête</a>
                     </div>
                 </div>
             </div>
 
             <!-- Infrastructure -->
-            <a href="pages/infrastructure.html" id="infrastructure-link" class="hover:underline hover:underline-offset-8 hover:decoration-2 text-2xl hover:text-gray-300 cursor-pointer transition-all">Infrastructure</a>
+            <a href="infrastructure.html" id="infrastructure-link"
+                class="hover:underline hover:underline-offset-8 hover:decoration-2 text-2xl hover:text-gray-300 cursor-pointer transition-all">Infrastructure</a>
 
         </div>
 
         <!-- Droite - Bouton Connexion -->
         <div id="connect-container">
-            <a href="connexion.html" id="connect-button" class="relative overflow-hidden text-2xl font-bold text-[#E64F19] rounded-full px-8 py-4 transition-all cursor-pointer">
+            <a href="connexion.html" id="connect-button"
+                class="relative overflow-hidden text-2xl font-bold text-[#E64F19] rounded-full px-8 py-4 transition-all cursor-pointer">
                 <span class="relative z-10">Se connecter</span>
             </a>
         </div>
 
         <!-- Droite - Bouton Connexion -->
         <div id="account-container">
-            <a href="connexion.html" id="connect-button" class="whitespace-nowrap flex-shrink-0 relative overflow-hidden text-2xl font-bold text-[#E64F19] rounded-full px-8 py-4 transition-all cursor-pointer border border-[#E64F19]">
-                <span class="relative z-10">Se connecter</span>
+            <a href="compte.html" id="connect-button"
+                class="whitespace-nowrap flex-shrink-0 relative overflow-hidden text-2xl font-bold text-[#E64F19] rounded-full px-8 py-4 transition-all cursor-pointer border border-[#E64F19]">
+                <span class="relative z-10">Mon compte</span>
             </a>
         </div>
     </nav>
     <!-- FIN NAV-BAR | Par Raphaël -->
+
     <div class="p-5">
         <h1 class="text-3xl font-bold tracking-wide"> Données recueillies :</h1>
     </div>
