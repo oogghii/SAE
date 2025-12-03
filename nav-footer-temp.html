@@ -16,9 +16,9 @@
 
         <!-- Gauche - Logo + Text -->
         <div id="logo-text-container" class="flex items-center gap-6">
-            <div id="logo-container" class="relative h-16 w-16 flex-shrink-0">
+            <a href="index.html" id="logo-container" class="relative h-20 w-20 flex-shrink-0 cursor-pointer">
                 <img id="logo-image" src="assets/img/logo/logo-lisieux.png" alt="Logo du site" class="">
-            </div>
+            </a>
             <div id="text-container" class="text-sm">
                 Plan Local<br>de Déplacements<br>de la Communauté d'agglomération<br>de Lisieux Normandie
             </div>
@@ -32,9 +32,9 @@
 
         <!-- Information -->
         <div class="relative group">
-            <button class="flex items-center gap-1 hover:underline hover:underline-offset-8 hover:decoration-2 text-2xl hover:text-gray-300 cursor-pointer transition-all">
+            <a href="information.html" class="flex items-center gap-1 hover:underline hover:underline-offset-8 hover:decoration-2 text-2xl hover:text-gray-300 cursor-pointer transition-all">
                 Information
-            </button>
+            </a>
 
             <div class="absolute left-1/2 -translate-x-1/2 top-full pt-4 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 ease-in-out">
                 <div class="bg-gray-700/95 backdrop-blur-md border border-white/10 rounded-xl overflow-hidden shadow-xl w-56 flex flex-col">
@@ -45,10 +45,10 @@
             </div>
         </div>
         <!-- Enquete -->
-        <div class="relative group">
-            <button class="flex items-center gap-1 hover:underline hover:underline-offset-8 hover:decoration-2 text-2xl hover:text-gray-300 cursor-pointer transition-all">
+        <div id="enquete-container" class="hidden relative group">
+            <a href="enquete.html" class="flex items-center gap-1 hover:underline hover:underline-offset-8 hover:decoration-2 text-2xl hover:text-gray-300 cursor-pointer transition-all">
                 Enquête
-            </button>
+            </a>
 
             <div class="absolute left-1/2 -translate-x-1/2 top-full pt-4 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 ease-in-out">
                 <div class="bg-gray-700/95 backdrop-blur-md border border-white/10 rounded-xl overflow-hidden shadow-xl w-56 flex flex-col">
@@ -58,22 +58,45 @@
                 </div>
             </div>
         </div>
+
+        <!-- Analyse -->
+        <div id="analyse-container" class="hidden relative group">
+            <a href="analyse.html" class="flex items-center gap-1 hover:underline hover:underline-offset-8 hover:decoration-2 text-2xl hover:text-gray-300 cursor-pointer transition-all">
+                Analyse
+            </a>
+
+            <div class="absolute left-1/2 -translate-x-1/2 top-full pt-4 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 ease-in-out">
+                <div class="bg-gray-700/95 backdrop-blur-md border border-white/10 rounded-xl overflow-hidden shadow-xl w-56 flex flex-col">
+                    <a href="pages/analyse.html" class="block px-6 py-3 text-lg hover:bg-white/10 transition-colors">Analyse</a>
+                    <a href="pages/enquete.html" class="block px-6 py-3 text-lg hover:bg-white/10 transition-colors">Enquête</a>
+                </div>
+            </div>
+        </div>
+
         <!-- Infrastructure -->
         <a href="pages/infrastructure.html" id="infrastructure-link" class="hover:underline hover:underline-offset-8 hover:decoration-2 text-2xl hover:text-gray-300 cursor-pointer transition-all">Infrastructure</a>
 
     </div>
 
+
         <!-- Droite - Bouton Connexion -->
         <div id="connect-container">
-            <button id="connect-button" class="relative overflow-hidden text-2xl font-bold text-[#E64F19] rounded-full px-8 py-4 transition-all cursor-pointer">
+            <a href="connexion.html" id="connect-button" class="relative overflow-hidden text-2xl font-bold text-[#E64F19] rounded-full px-8 py-4 transition-all cursor-pointer">
                 <span class="relative z-10">Se connecter</span>
-            </button>
+            </a>
+        </div>
+
+        <!-- Droite - Bouton Connexion -->
+        <div id="account-container">
+            <a href="account.html" id="connect-button" class="relative overflow-hidden text-2xl font-bold text-[#E64F19] rounded-full px-8 py-4 transition-all cursor-pointer">
+                <span class="relative z-10">Mon compte</span>
+            </a>
         </div>
     </nav>
     <!-- FIN NAV-BAR | Par Raphaël -->
 
     <!-- DEBUT FOOTER | Par Alexeï -->
-    <footer class ="footer-general bg-gray-900/90 bg-gray-900/90 backdrop-blur-md border-b border-white/10 footer-shadow">
+    <footer class ="footer-general bg-gray-900/90 backdrop-blur-md border-b border-white/10 footer-shadow">
         <div class="brand-box">
             <img src="assets/img/logo/logo.png" alt="Logo du Site" class="footer-logo">
             <p>"Vivons mieux, Vivons ensemble"</p>
@@ -84,6 +107,6 @@
     </footer>
     <!-- FIN FOOTER | Par Alexeï -->
 
-    <script src="assets/js/main.js"></script>
+    <script src="assets/js/components/nav.js"></script>
   </body>
 </html>
