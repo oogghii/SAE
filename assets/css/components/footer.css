@@ -1,0 +1,17 @@
+.brand-box{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.footer-logo{
+    width: 80px;
+    text-align: left;
+}
+
+.footer-text{
+    
+    text-align: left;
+    padding: 5px;
+    color: black;
+}
