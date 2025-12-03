@@ -1,11 +1,11 @@
-# 💻 Projet SAE Web
+# Projet SAE Web
 
 ![Team](https://img.shields.io/badge/Team-Rapha%C3%ABl%20%7C%20Wendy%20%7C%20Victorien%20%7C%20Alexe%C3%AF-blue)
 
-## ⚠️ Prérequis
+## Prérequis
 Ce site est optimisé pour les navigateurs basés sur **Chromium** (Google Chrome, Microsoft Edge, Brave, etc.).
 
-## 🚀 Comment accéder au site ?
+## Comment accéder au site ?
 
 Vous avez trois possibilités pour visualiser le projet :
 
@@ -13,7 +13,7 @@ Vous avez trois possibilités pour visualiser le projet :
 
 ### 1. Version en ligne (Recommandé)
 Accédez directement à la dernière version déployée en cliquant ci-dessous :
-🔗 **[Visiter le site (GitHub Pages)](https://oogghii.github.io/SAE/)**
+**[Visiter le site (GitHub Pages)](https://oogghii.github.io/SAE/)**
 
 ### 2. Version locale
 
