@@ -1,8 +1,6 @@
 <!-- Chart.js via CDN -->
 
-    // ======== Données communes =========
-    const labels = ["Lundi", "Mardi", "Mercredi", "Jeudi", "Vendredi"];
-
+//Usage de Chart.js, une librairie permettant de faire graphiques
 
     const labelsHist = ["Etudiant / Elève", "Employé / Ouvrier", "Cadre", "Commerçant / Artisan", "Retraité", "Sans Activité"]
     const dataValuesHist = [12, 19, 3, 5, 8, 1];
