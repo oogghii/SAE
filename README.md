@@ -1,5 +1,7 @@
 # Projet SAE Web
 
+Fichier Accueil : `index.html`
+
 ![Team](https://img.shields.io/badge/Team-Rapha%C3%ABl%20%7C%20Wendy%20%7C%20Victorien%20%7C%20Alexe%C3%AF-blue)
 
 ## Prérequis
@@ -21,7 +23,7 @@ Accédez directement à la dernière version déployée en cliquant ci-dessous :
 Si vous souhaitez lancer le projet sur votre machine :
 1. Lancez simplement le fichier index.html
 
-### 2.2 Autre Navigateur
+### 2.2 Autre Navigateur (Python est requis sur votre machine)
 Si vous souhaitez lancer le projet sur votre machine :
 1. Lancez le fichier `start.bat` situé à la racine.
 2. Ouvrez votre navigateur et allez sur :
