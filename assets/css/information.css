@@ -1,0 +1,9 @@
+h2 { 
+    margin-left: 2%;
+    font-size: 1.5em; /* J'ai réduit un peu car 3em c'est énorme ! */
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    list-style-type: disc; /* Important avec Tailwind (voir ci-dessous) */
+}
+
