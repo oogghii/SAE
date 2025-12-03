@@ -4,9 +4,6 @@ enqueteContainer = document.getElementById('enquete-container');
 analyseContainer = document.getElementById('analyse-container');
 
 document.addEventListener('DOMContentLoaded', () => {
-    localStorage.setItem('connexionStatus', 'admin');
-    //localStorage.removeItem('connexionStatus');
-
     const connexionStatus = localStorage.getItem('connexionStatus');
 
     connectButton(connexionStatus);
