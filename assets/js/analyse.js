@@ -2,7 +2,16 @@
 
     // ======== Données communes =========
     const labels = ["Lundi", "Mardi", "Mercredi", "Jeudi", "Vendredi"];
-    const dataValues = [12, 19, 3, 5, 8];
+
+
+    const labelsHist = ["Etudiant / Elève", "Employé / Ouvrier", "Cadre", "Commerçant / Artisan", "Retraité", "Sans Activité"]
+    const dataValuesHist = [12, 19, 3, 5, 8, 1];
+
+    const labelsCurve = ["Lundi", "Mardi", "Mercredi", "Jeudi", "Vendredi"];
+    const dataValuesCurve = [12, 19, 3, 5, 8, 1];
+
+const labelsPie = ["-12 ans", "12 – 17 ans", "18 – 24 ans", "25 – 34 ans", "35 – 49 ans", "50 – 64 ans", "65 – 74 ans", "+75 ans"];
+const dataValuesPie = [12, 19, 24, 5, 9, 8, 14,5];
 
     // Palette de couleurs
     const colors = [
@@ -19,10 +28,10 @@
     new Chart(ctx1, {
     type: "bar",
     data: {
-    labels: labels,
+    labels: labelsHist,
     datasets: [{
-    label: "Ventes",
-    data: dataValues,
+    label: "Catégorie socio-professionnelle ",
+    data: dataValuesHist,
     backgroundColor: colors,
     borderWidth: 1
 }]
@@ -49,10 +58,10 @@
     new Chart(ctx2, {
     type: "line",
     data: {
-    labels: labels,
+    labels: labelsCurve,
     datasets: [{
-    label: "Température",
-    data: [5, 9, 7, 11, 6],
+    label: "Usager des transports en fonction des jours de la semaine",
+    data: dataValuesCurve,
     borderColor: "rgba(59, 130, 246, 1)",
     backgroundColor: "rgba(59, 130, 246, 0.2)",
     tension: 0.3,
@@ -82,10 +91,10 @@
     new Chart(ctx3, {
     type: "pie",
     data: {
-    labels: ["Chrome", "Firefox", "Edge", "Safari", "Autres"],
+    labels: labelsPie,
     datasets: [{
-    label: "Navigateurs",
-    data: [55, 20, 10, 8, 7],
+    label: "Tranches Âge",
+    data: dataValuesPie,
     backgroundColor: colors,
     hoverOffset: 8
 }]
