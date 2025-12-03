@@ -1,0 +1,32 @@
+
+.titre{
+    margin-left: 6%;
+    font-size: 4em;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+
+
+.conteneur{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 20px;
+    
+}
+
+.colonne {
+    flex: 40%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+
+.colonne img {
+    width: 100%;
+    height: auto;
+    border:5px double black ;
+}
