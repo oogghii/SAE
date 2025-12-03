@@ -111,33 +111,57 @@ const dataValuesPie = [12, 19, 24, 5, 9, 8, 14,5];
 });
 
     // ======== 4. Radar chart =========
-    const ctx4 = document.getElementById("chart4");
-
-    new Chart(ctx4, {
-    type: "radar",
-    data: {
-    labels: ["Force", "Vitesse", "Endurance", "Magie", "Chance"],
+const mobilityData = {
+    labels: [
+        "Marche",
+        "Vélo",
+        "Transports en commun",
+        "Covoiturage",
+        "Voiture individuelle",
+        "Télétravail / À domicile"
+    ],
     datasets: [{
-    label: "Héros A",
-    data: [8, 6, 7, 4, 9],
-    backgroundColor: "rgba(16, 185, 129, 0.3)",
-    borderColor: "rgba(16, 185, 129, 1)",
-    pointBackgroundColor: "rgba(16, 185, 129, 1)"
-}]
-},
+        label: "Profil moyen des déplacements",
+        data: [60, 25, 30, 20, 80, 10], // à adapter avec tes vraies données
+        backgroundColor: "rgba(59, 130, 246, 0.3)",   // bleu semi-transparent
+        borderColor: "rgba(59, 130, 246, 1)",         // contour bleu
+        pointBackgroundColor: "rgba(59, 130, 246, 1)",
+        pointRadius: 4,
+        borderWidth: 2
+    }]
+};
+
+const ctx4 = document.getElementById("chart4");
+
+new Chart(ctx4, {
+    type: "radar",
+    data: mobilityData,
     options: {
-    responsive: true,
-    plugins: {
-    title: {
-    display: true,
-    text: "Radar"
-}
-},
-    scales: {
-    r: {
-    beginAtZero: true
-}
-}
-}
+        responsive: true,
+        plugins: {
+            title: {
+                display: true,
+                text: "Répartition des modes de déplacement (%)"
+            },
+            legend: {
+                display: true
+            }
+        },
+        scales: {
+            r: {
+                beginAtZero: true,
+                suggestedMax: 100,
+                ticks: {
+                    stepSize: 20,
+                    callback: (value) => value + "%"
+                },
+                pointLabels: {
+                    font: {
+                        size: 12
+                    }
+                }
+            }
+        }
+    }
 });
 

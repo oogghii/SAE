@@ -12,7 +12,7 @@
 
 </head>
 
-<body>
+<body class="min-h-screen flex flex-col">
     <!-- DEBUT NAV-BAR | Par Raphaël -->
     <nav id="nav-bar"
         class="sticky top-0 z-50 flex justify-between items-center bg-gray-900/90 backdrop-blur-md border-b border-white/10 text-white px-4 py-2 shadow-lg shadow-black/50">
@@ -103,7 +103,7 @@
 
         <!-- Droite - Bouton Connexion -->
         <div id="connect-container">
-            <a href="connexion.html" id="connect-button"
+            <a href="connexion.html"
                 class="relative overflow-hidden text-2xl font-bold text-[#E64F19] rounded-full px-8 py-4 transition-all cursor-pointer">
                 <span class="relative z-10">Se connecter</span>
             </a>
@@ -111,7 +111,7 @@
 
         <!-- Droite - Bouton Connexion -->
         <div id="account-container">
-            <a href="compte.html" id="connect-button"
+            <a href="compte.html"
                 class="whitespace-nowrap flex-shrink-0 relative overflow-hidden text-2xl font-bold text-[#E64F19] rounded-full px-8 py-4 transition-all cursor-pointer border border-[#E64F19]">
                 <span class="relative z-10">Mon compte</span>
             </a>
@@ -119,39 +119,36 @@
     </nav>
     <!-- FIN NAV-BAR | Par Raphaël -->
 
-    <div class="max-w-4xl mx-auto p-6 font-sans text-gray-800">
+    <main class="flex-grow flex">
+        <div class="max-w-4xl mx-auto p-6 font-sans text-gray-800">
+            <h1 class="text-3xl font-bold text-center text-blue-900 mb-8">
+                Focus Régional : La Normandie
+            </h1>
 
-    <h1 class="text-3xl font-bold text-center text-blue-900 mb-8">
-        Focus Régional : La Normandie
-    </h1>
+            <div class="bg-blue-50 p-8 rounded-xl shadow-inner">
+                <h2 class="text-2xl font-bold text-blue-800 mb-4">
+                    Une région pilote de la planification
+                </h2>
 
-    <div class="bg-blue-50 p-8 rounded-xl shadow-inner">
-        <h2 class="text-2xl font-bold text-blue-800 mb-4">
-            Une région pilote de la planification
-        </h2>
-        
-        <p class="text-lg text-gray-700 leading-relaxed mb-6">
-            La Normandie est en pointe sur la territorialisation de la planification écologique, avec l'organisation de sa propre "COP Régionale".
-        </p>
+                <p class="text-lg text-gray-700 leading-relaxed mb-6">
+                    La Normandie est en pointe sur la territorialisation de la planification écologique, avec l'organisation de sa propre "COP Régionale".
+                </p>
 
-        <h3 class="text-xl font-bold text-gray-900 mb-3">Les actions concrètes :</h3>
-        <ul class="list-disc pl-6 space-y-3 text-gray-700">
-            <li>
-                <strong>Le réseau NOMAD :</strong> Investissement massif de la Région dans les trains et cars pour offrir une alternative à la voiture (Lignes Caen-Paris / Caen-Rouen).
-            </li>
-            <li>
-                <strong>Vallée de la Seine :</strong> Un axe stratégique pour le développement de l'hydrogène vert et la décarbonation de l'industrie lourde.
-            </li>
-            <li>
-                <strong>Participation :</strong> Mise en place de groupes de travail rassemblant des centaines d'acteurs locaux.
-            </li>
-        </ul>
-    </div>
-
-</div>
-
-
-
+                <h3 class="text-xl font-bold text-gray-900 mb-3">Les actions concrètes :</h3>
+                <ul class="list-disc pl-6 space-y-3 text-gray-700">
+                    <li>
+                        <strong>Le réseau NOMAD :</strong> Investissement massif de la Région dans les trains et cars pour offrir une alternative à la voiture (Lignes Caen-Paris / Caen-Rouen).
+                    </li>
+                    <li>
+                        <strong>Vallée de la Seine :</strong> Un axe stratégique pour le développement de l'hydrogène vert et la décarbonation de l'industrie lourde.
+                    </li>
+                    <li>
+                        <strong>Participation :</strong> Mise en place de groupes de travail rassemblant des centaines d'acteurs locaux.
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </main>
 
 
 
@@ -170,7 +167,7 @@
 
     <script src="assets/js/components/nav.js"></script>
 
- 
+
 
 </body>
 
