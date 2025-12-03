@@ -1,11 +1,12 @@
-body{
+.page-contact {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    font-family: Arial, Helvetica, sans-serif ;
+    font-family: Arial, Helvetica, sans-serif;
 }
+
 
 #boite-connexion{
     display: flex;
