@@ -6,11 +6,11 @@ analyseContainer = document.getElementById('analyse-container');
 document.addEventListener('DOMContentLoaded', () => {
     const connexionStatus = localStorage.getItem('connexionStatus');
 
-    connectButton(connexionStatus);
-    analyseButton(connexionStatus);
+    connectingButton(connexionStatus);
+    analysingButton(connexionStatus);
 });
 
-function connectButton(connexionStatus){
+function connectingButton(connexionStatus){
     if (connexionStatus === null) {
         connectContainer.classList.remove('hidden');
         accountContainer.classList.add('hidden');
@@ -21,8 +21,8 @@ function connectButton(connexionStatus){
     }
 }
 
-function analyseButton(connexionStatus){
-    if (connexionStatus === 'administré') {
+function analysingButton(connexionStatus){
+    if (connexionStatus === 'administrateur') {
         enqueteContainer.classList.add('hidden');
         analyseContainer.classList.remove('hidden');
     }

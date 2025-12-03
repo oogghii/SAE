@@ -1,0 +1,151 @@
+Présentation de la communauté de communes :
+
+
+Transition énergétique : 
+definition (trouvée sur https://www.ge.ch/): "La transition écologique vise à trouver de nouveaux équilibres et à engendrer une nouvelle façon de produire, de commercer, de consommer, de travailler et de vivre ensemble"
+Selon le site officiel du gouv, voici les pricipales étapes de la transition écologique de la France : Mieux se déplacer - Mieux se loger - Mieux péserver et valoriser nos écosystèmes - mieux produire - Mieux consommer
+
+dans le doc commençant par 44:
+1. Pour la partie "Définition et Planification" 
+C'est la base théorique. Tu peux expliquer que l'État a lancé une méthode globale pour atteindre des objectifs précis.
+
+L'objectif global : Baisse des émissions de gaz à effet de serre (GES) de 55% en 2030 par rapport à 1990.
+
+La méthode : Une planification secteur par secteur (transports, logement, industrie, etc.) pour que tout le monde (État, entreprises, ménages, collectivités) participe.
+
+Les 5 défis majeurs : Atténuer le climat, s'adapter, préserver la biodiversité, préserver les ressources, réduire les pollutions.
+
+
+2. Pour la partie "Chiffres clés des transports"
+Le document donne des chiffres précis parfaits pour faire des graphiques ou des infographies.
+
+L'objectif transport : Réduire les émissions de 36 Mt eqCO2.
+
+Voiture électrique : Viser 15% de véhicules électriques en 2030 (contre 1% actuellement).
+
+Vélo : On est passé de 40 000 km de pistes cyclables en 2017 à plus de 17 000 km supplémentaires sécurisés (donnée mai 2023). L'objectif est de produire 2 millions de vélos en France en 2030.
+
+Covoiturage : L'objectif est de passer de 900 000 trajets quotidiens à 3 millions en 2027.
+
+Ferroviaire : Création de RER métropolitains dans les grandes villes.
+
+
+3. Pour la partie "Aides aux Communes"
+C'est ce qui va intéresser les élus de ta communauté d'agglo.
+
+Le Fonds Vert : C'est le levier principal. Il est doté de 2,5 milliards d'euros en 2024 pour aider les collectivités à financer leur transition.
+
+
+Rénovation des écoles : Une partie de ce fonds sert spécifiquement à rénover les écoles (bâtiments publics).
+
+
+Gestion de l'eau : Aides pour lutter contre les fuites et renaturer les villes (désimperméabilisation).
+
+
+Zéro Artificialisation Nette (ZAN) : L'objectif imposé aux communes est de réduire de 50% le rythme de bétonisation des sols d'ici 2030.
+
+4. Pour la partie "Aides aux Entreprises" 
+
+Plan France 2030 : Un plan d'investissement de 54 milliards d'euros, dont la moitié est dédiée à la décarbonation de l'économie.
+
+Industrie verte : Un projet de loi dédié pour favoriser l'industrie décarbonée.
+
+Décarbonation des gros sites : L'État signe des contrats spécifiques avec les 50 sites industriels les plus polluants pour les aider à changer leurs processus.
+
+
+5. Pour la partie "Info générale / Citoyens" (Bonus pour tes pages supplémentaires)
+
+Logement : Le dispositif phare est MaPrimeRénov' (1 million de dossiers déjà engagés). L'objectif est de supprimer 75% des chaudières fioul d'ici 2030.
+
+Biodiversité : Objectif de planter 1 milliard d'arbres d'ici 2031 et de restaurer 50 000 hectares de zones humides.
+
+Eau : Objectif de réduire de 10% les prélèvements d'eau d'ici 2030 (sobriété).
+
+
+
+Version bien rédigé avec des infos en plus ::: 
+1. Page "Comprendre la Transition" : Définition, Historique & Planification
+Titre : La Transition Écologique en France : Cap sur 2030
+
+Le concept : La transition écologique n'est pas une option, c'est une nécessité physique. Elle consiste à transformer notre façon de produire, de consommer et de nous déplacer pour répondre à cinq défis majeurs :
+
+Atténuer le changement climatique (baisser le CO2).
+
+S'adapter aux conséquences inévitables (+4°C en 2100).
+
+Préserver la biodiversité.
+
+Préserver les ressources (eau, matériaux).
+
+Réduire les pollutions qui affectent la santé.
+
+L'Objectif & La Planification : La France s'est fixée un cap clair : réduire ses émissions de gaz à effet de serre de 55 % d'ici 2030 (par rapport à 1990). Pour y arriver, l'État a lancé la démarche "France Nation Verte", une méthode de planification écologique qui distribue l'effort entre tous les acteurs : État, entreprises, collectivités et citoyens.
+
+
+Résultat actuel : Cette méthode porte ses fruits avec une baisse historique des émissions de -5,8 % en 2023.
+
+2. Page "Transports" : Les Chiffres Clés
+Titre : Mobilité : Le grand défi de la décarbonation
+
+Le transport est le secteur le plus émetteur en France. Voici la réalité des chiffres pour comprendre l'urgence d'agir :
+
+
+Le poids de la voiture : La voiture individuelle représente à elle seule environ 70 % des émissions de CO2 du secteur des transports.
+
+
+L'objectif 2030 : Le secteur des transports doit réduire ses émissions de 37,9 millions de tonnes de CO2 d'ici 2030.
+
+L'électrification s'accélère : En 2024, les voitures électriques représentent déjà 17,5 % des ventes de véhicules neufs (contre 14 % en 2022). L'objectif est d'atteindre 66 % des ventes en 2030.
+
+
+Le retour du train : L'usage du train a bondi de 17 % depuis 2019, preuve que les français cherchent des alternatives.
+
+3. Page "Collectivités" : Solutions & Aides aux Communes
+Titre : Le "Fonds Vert" : Accélérateur de transition pour les communes
+
+Les collectivités sont en première ligne. Pour les aider à financer leurs projets, l'État a déployé le Fonds Vert, doté de 2,5 milliards d'euros en 2024.
+
+Les 3 axes prioritaires financés :
+
+
+Rénovation énergétique des bâtiments publics : La priorité est donnée aux écoles, pour améliorer le confort des élèves et réduire la facture énergétique des mairies.
+
+Renaturation des villes : Financement de projets pour ramener la nature en ville, créer des ilots de fraicheur et désimperméabiliser les sols (gestion de l'eau).
+
+Modernisation de l'éclairage public : Remplacement des vieux lampadaires par des LED pour faire des économies immédiates d'électricité.
+
+
+Autres outils : Les communes doivent aussi viser le Zéro Artificialisation Nette (ZAN), en réduisant de 50 % la consommation d'espaces naturels d'ici 2030.
+
+4. Page "Entreprises" : Aides à la Transition
+Titre : Décarboner son entreprise : Une opportunité économique
+
+La transition n'est pas qu'une contrainte, c'est un levier de compétitivité soutenu par des dispositifs massifs via Bpifrance et l'ADEME.
+
+Les dispositifs phares :
+
+
+Mission Transition Écologique : Une plateforme web unique (beta.gouv.fr) pour permettre aux TPE/PME de trouver les aides adaptées à leur profil en quelques clics.
+
+
+Plan France 2030 : Un plan d'investissement de 54 milliards d'euros, dont 50 % sont dédiés à la décarbonation de l'économie et aux innovateurs.
+
+
+Crédit d'impôt Industrie Verte (C3IV) : Un soutien fiscal puissant pour les entreprises qui investissent dans les secteurs clés : batteries, éolien, panneaux solaires et pompes à chaleur.
+
+
+Décarbonation de l'industrie : L'État accompagne spécifiquement les 50 sites industriels les plus émetteurs via des contrats de transition pour changer leurs processus de production.
+
+5. Page "Focus Local" : La Mobilité en Normandie
+Titre : La Normandie, pilote de la planification écologique
+
+La Normandie est une région pilote dans la territorialisation de la planification écologique. Elle a lancé sa COP Régionale (Conférence des Parties) pour adapter les objectifs nationaux aux réalités locales.
+
+Les actions concrètes en région :
+
+
+Une méthode participative : La Normandie est citée en exemple national pour avoir mis en place des "groupes de travail sectoriels élargis" rassemblant plusieurs centaines d'acteurs locaux pour débattre des solutions concrètes.
+
+Le réseau NOMAD : La Région investit massivement dans le réseau de transport Nomad (trains et cars) pour offrir une alternative à la voiture, notamment sur les axes Caen-Paris et Caen-Rouen.
+
+L'industrie normande : Terre d'industrie (vallée de la Seine), la région est au cœur des enjeux de décarbonation industrielle et du développement de l'hydrogène vert.
