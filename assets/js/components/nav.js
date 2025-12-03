@@ -22,7 +22,7 @@ function connectButton(connexionStatus){
 }
 
 function analyseButton(connexionStatus){
-    if (connexionStatus === 'admin') {
+    if (connexionStatus === 'administré') {
         enqueteContainer.classList.add('hidden');
         analyseContainer.classList.remove('hidden');
     }
