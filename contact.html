@@ -7,36 +7,23 @@
 </head>
 <body>
     <main>
-        <a href="index.html" id="btn-retour" >← Accueil</a>
+        <div id="titre">
+            <h2>Une question ?</h2>
+            <h2>Contactez-nous !</h2>
+        </div>
 
         <div id="boite-connexion">
             <form class="form-connexion">
                 <label for="email" class="titre-champ">Mail :</label>
                 <input type="email" id="email" name="email" required class="champ" placeholder="adresse@mail.com"/>
 
-                <label for="pass" class="titre-champ">Mot de passe :</label>
-                <input type="password" id="pass" name="password" minlength="8" required class="champ"/>
+                <label for="objet" class="titre-champ">Objet :</label>
+                <input type="text" id="objet" name="objet" minlength="8" required class="champ"/>
 
-                <fieldset class="fieldset-connexion">
-                    <legend class="titre-champ">Type de connexion :</legend>
+                <label for="contenu" class="titre-champ">Contenu :</label>
+                <input type="text" id="contenu" name="contenu" required class="champ" />
 
-                    <div>
-                        <input type="radio" id="administre" name="type_connexion" value="Administre" checked />
-                        <label for="administre"><strong>Administré(e)</strong></label>
-                    </div>
-
-                    <div>
-                        <input type="radio" id="elu" name="type_connexion" value="Elu" />
-                        <label for="elu"><strong>Élu(e)</strong></label>
-                    </div>
-
-                    <div>
-                        <input type="radio" id="administrateur" name="type_connexion" value="Administrateur" />
-                        <label for="administrateur"><strong>Administrateur</strong></label>
-                    </div>
-                </fieldset>
-
-                <button type="submit" class="bouton-envoi">Connexion</button>
+                <button type="submit" class="bouton-envoi">Envoyer</button>
             </form>
         </div>
     </main>
