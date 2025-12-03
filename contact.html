@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Nous contacter</title>
+    <link rel="stylesheet" href="connexion.css">
+</head>
+<body>
+    <main>
+        <a href="index.html" id="btn-retour" >← Accueil</a>
+
+        <div id="boite-connexion">
+            <form class="form-connexion">
+                <label for="email" class="titre-champ">Mail :</label>
+                <input type="email" id="email" name="email" required class="champ" placeholder="adresse@mail.com"/>
+
+                <label for="pass" class="titre-champ">Mot de passe :</label>
+                <input type="password" id="pass" name="password" minlength="8" required class="champ"/>
+
+                <fieldset class="fieldset-connexion">
+                    <legend class="titre-champ">Type de connexion :</legend>
+
+                    <div>
+                        <input type="radio" id="administre" name="type_connexion" value="Administre" checked />
+                        <label for="administre"><strong>Administré(e)</strong></label>
+                    </div>
+
+                    <div>
+                        <input type="radio" id="elu" name="type_connexion" value="Elu" />
+                        <label for="elu"><strong>Élu(e)</strong></label>
+                    </div>
+
+                    <div>
+                        <input type="radio" id="administrateur" name="type_connexion" value="Administrateur" />
+                        <label for="administrateur"><strong>Administrateur</strong></label>
+                    </div>
+                </fieldset>
+
+                <button type="submit" class="bouton-envoi">Connexion</button>
+            </form>
+        </div>
+    </main>
+</body>
+</html>

@@ -13,7 +13,7 @@ body{
     align-items: center;
     height: 475px;
     width: 475px;
-    background: #fafafa; /* léger gris clair pour la profondeur */
+    background: #fafafa;
     border: 2px solid #4a4a4a;
     border-radius: 30px;
     box-shadow: 6px 6px 0px #4a4a4a;
@@ -44,13 +44,46 @@ body{
     margin-top: 0.5rem;
 }
 
-.bouton-envoi{
-    color: white;
-    background-color: #2A2A2A;
-    border: 1px solid #2A2A2A;
+.bouton-envoi {
+    position: relative;
+    overflow: hidden;
+
+    color: black;
+    background-color: white;
+    border: 2px solid #2a2a2a;
     border-radius: 14px;
+
     height: 2.5rem;
+    padding: 0 1rem;
+    cursor: pointer;
+
+    z-index: 1;
+    transition: color 0.3s ease;
 }
+
+.bouton-envoi::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    width: 0%;
+    height: 100%;
+
+    background-color: #2a2a2a;
+    z-index: -1;
+
+    transition: width 0.3s ease;
+}
+
+.bouton-envoi:hover::before {
+    width: 100%;
+}
+
+.bouton-envoi:hover {
+    color: white;
+}
+
 
 .fieldset-connexion > div {
     display: flex;
@@ -99,7 +132,7 @@ input {
 }
 
 input[type="radio"] {
-    accent-color: #2A2A2A; 
+    accent-color: #2A2A2A;
 }
 
 
