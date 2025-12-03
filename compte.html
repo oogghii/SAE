@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Connexion</title>
+    <link rel="stylesheet" href="connexion.css">
+</head>
+<body>
+    <main>
+        <a href="index.html" id="btn-retour" >← Accueil</a>
+
+        <div id="boite-connexion">
+            <form class="form-connexion">
+
+                <div class="ligne-double">
+                    <div class="bloc-champ">
+                        <label for="nom" class="titre-champ">Nom :</label>
+                        <input type="text" id="nom" name="nom" class="champ" value="Nom" readonly/>
+                    </div>
+
+                    <div class="bloc-champ">
+                        <label for="prenom" class="titre-champ">Prénom :</label>
+                        <input type="text" id="prenom" name="prenom" class="champ" value="Prenom" readonly/>
+                    </div>
+                </div>
+
+                <label for="email" class="titre-champ">Mail :</label>
+                <input type="email" id="email" name="email" required class="champ" value="mail@mail.com" readonly/>
+
+                <label for="commune" class="titre-champ">commune :</label>
+                <input type="text" id="commune" name="commune" minlength="8" value="Coquainvilliers" readonly/>
+
+                <button type="submit" class="bouton-envoi">Déconnexion</button>
+
+            </form>
+        </div>
+
+    </main>
+</body>
+</html>
