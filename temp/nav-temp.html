@@ -4,39 +4,45 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Temporary Nav</title>
-    <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="icon" href="assets/img/icon/website-icon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="../assets/css/components/nav.css">
+    <link rel="icon" href="assets/img/icon/logo.ico" type="image/x-icon">
 
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
   </head>
   <body>
-    <nav>
-        <div id="logo-text-container">
-            <div id="logo-container">
+
+    
+    <!-- DEBUT - Par Raphaël -->
+    <nav id="nav-bar" class="sticky top-0 z-50 flex justify-between items-center bg-gray-900/90 backdrop-blur-md border-b border-white/10 text-white px-12 py-6 shadow-lg shadow-black/50">
+
+        <!-- Gauche - Logo + Text -->
+        <div id="logo-text-container" class="flex items-center gap-6">
+            <div id="logo-container" class="h-16 w-16 bg-gray-300 rounded-full flex items-center justify-center text-black font-bold">
                 Logo
             </div>
             <div id="text-container" class="text-sm">
-                Plan Local<br>de Déplacements...
+                Plan Local<br>de Déplacements<br>de la Communauté d'agglomération<br>de Lisieux Normandie
             </div>
         </div>
 
-
-        <div id="link-container">
-            <a id="accueil-link">Accueil</a>
-            <a id="information-link">Information</a>
-            <a id="enquete-link">Enquête</a>
-            <a id="infrastucture-link">Infrastructure</a>
+        <!-- Milieu - Lien -->
+        <div id="link-container" class="flex gap-8 xl:gap-44">
+            <a href="../index.html" id="accueil-link" class="hover:underline hover:underline-offset-12 hover:decoration-2 text-2xl hover:text-gray-300 cursor-pointer">Accueil</a>
+            <a href="../pages/information.html" id="information-link" class="hover:underline hover:underline-offset-12 hover:decoration-2 text-2xl hover:text-gray-300 cursor-pointer">Informations</a>
+            <a href="../pages/enquete.html" id="enquete-link" class="hover:underline hover:underline-offset-12 hover:decoration-2 text-2xl hover:text-gray-300 cursor-pointer">Enquêtes</a>
+            <a href="../pages/infrastructure.html" id="infrastructure-link" class="hover:underline hover:underline-offset-12 hover:decoration-2 text-2xl hover:text-gray-300 cursor-pointer">Infrastructure</a>
         </div>
 
+        <!-- Droite - Bouton Connexion -->
         <div id="connect-container">
-            <button id="connect-button">
-                Se connecter
+            <button id="connect-button" class="relative overflow-hidden text-2xl font-bold border-4 border-lime-400 text-lime-400 rounded-full px-8 py-4 transition-all">
+                <span class="relative z-10">Se connecter</span>
             </button>
         </div>
     </nav>
+    <!-- FIN - Par Raphaël -->
     
-    <script src="assets/js/main.js"></script>
+
+    <script src="../assets/js/main.js"></script>
   </body>
 </html>
-
-<!-- Nav Bar Faites par Raphaël Haziza -->
